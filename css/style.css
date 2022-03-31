@@ -34,7 +34,7 @@ body {
 
 /* dog-boarding */
 .dog-boarding {
-  background: url("img/index/raster/dog-first-block-bg.jpg") 0 0 / cover no-repeat;
+  background: url("../img/index/raster/dog-first-block-bg.jpg") 0 0 / cover no-repeat;
   min-height: 800px;
   padding-top: 280px;
   padding-bottom: 100px;
@@ -104,7 +104,7 @@ body {
 .offset-block_first-block-decoration::before {
   content: "";
   position: absolute;
-  background: url("img/index/raster/blob.png") 0 0 / cover no-repeat;
+  background: url("../img/index/raster/blob.png") 0 0 / cover no-repeat;
   width: 662px;
   height: 590px;
   bottom: -150px;
@@ -114,7 +114,7 @@ body {
 .offset-block_first-block-decoration::after {
   content: "";
   position: absolute;
-  background: url("img/index/vector/dots.svg") 0 0 / cover no-repeat;
+  background: url("../img/index/vector/dots.svg") 0 0 / cover no-repeat;
   width: 201px;
   height: 317px;
   left: 895px;
@@ -133,7 +133,7 @@ body {
 .offset-block__sub-title::before {
   content: "";
   position: absolute;
-  background: url("img/index/vector/overline-mark.svg") 0 0 / cover no-repeat;
+  background: url("../img/index/vector/overline-mark.svg") 0 0 / cover no-repeat;
   top: 0;
   left: 0;
   width: 26.53px;
@@ -176,7 +176,7 @@ body {
   top: 0;
   width: 380px;
   height: 242px;
-  background: url("img/index/raster/blob-ippointment.png") 0 0 / cover no-repeat;
+  background: url("../img/index/raster/blob-ippointment.png") 0 0 / cover no-repeat;
   z-index: 2;
 }
 
@@ -187,7 +187,7 @@ body {
   top: 105px;
   width: 236px;
   height: 317px;
-  background: url("img/index/vector/stylize-circles.svg") 0 0 / 236px 317px no-repeat;
+  background: url("../img/index/vector/stylize-circles.svg") 0 0 / 236px 317px no-repeat;
   z-index: 1;
 }
 
@@ -196,7 +196,7 @@ body {
   overflow: hidden;
   min-height: 500px;
   min-width: 100%;
-  background: url("img/index/raster/dog-appointment.png") 3px 44px / auto no-repeat;
+  background: url("../img/index/raster/dog-appointment.png") 3px 44px / auto no-repeat;
   z-index: 4;
 }
 
@@ -207,7 +207,7 @@ body {
   height: 388px;
   right: 8px;
   top: -26px;
-  background: url("img/index/vector/line-appointment.svg") 0 0 / contain no-repeat;
+  background: url("../img/index/vector/line-appointment.svg") 0 0 / contain no-repeat;
   z-index: 4;
 }
 
@@ -218,7 +218,7 @@ body {
   top: 114px;
   width: 100px;
   height: 100px;
-  background: url("img/index/raster/tennis-ball.png") center / cover no-repeat;
+  background: url("../img/index/raster/tennis-ball.png") center / cover no-repeat;
   z-index: 5;
 }
 
@@ -257,7 +257,7 @@ body {
   position: relative;
   min-height: 980px;
   padding: 130px 0 0 0;
-  background: url("img/index/raster/form-bg.png") center / cover no-repeat;
+  background: url("../img/index/raster/form-bg.png") center / cover no-repeat;
   overflow: hidden;
   margin-bottom: 80px;
 }
@@ -270,7 +270,7 @@ body {
   height: 566px;
   left: 100px;
   top: 239px;
-  background: url("img/index/raster/form-stylize-circles.png") center / contain no-repeat;
+  background: url("../img/index/raster/form-stylize-circles.png") center / contain no-repeat;
 }
 
 .appointment-form__wrapper::after {
@@ -281,7 +281,7 @@ body {
   height: 725px;
   left: 120px;
   top: 135px;
-  background: url("img/index/raster/form-blob.png") center / contain no-repeat;
+  background: url("../img/index/raster/form-blob.png") center / contain no-repeat;
 }
 
 .appointment-form__container {
@@ -362,7 +362,7 @@ body {
   height: 329px;
   right: 100px;
   top: 0px;
-  background: url("img/index/raster/our-impact-blob.png") center / contain no-repeat;
+  background: url("../img/index/raster/our-impact-blob.png") center / contain no-repeat;
 }
 
 .our-impact__container {
