@@ -1,0 +1,396 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* Universal selectors */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1;
+
+  overflow-x: hidden;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 0 15px;
+}
+
+/* other selectors */
+
+.main {
+}
+
+.header {
+}
+
+/* dog-boarding */
+.dog-boarding {
+  background: url("/img/index/raster/dog-first-block-bg.jpg") 0 0 / cover no-repeat;
+  min-height: 800px;
+  padding-top: 280px;
+  padding-bottom: 100px;
+  position: sticky;
+  top: 0;
+}
+
+.dog-boarding__body {
+  max-width: 583px;
+}
+.dog-boarding__title {
+  font-weight: 900;
+  font-size: 56px;
+  margin-bottom: 48px;
+}
+.dog-boarding__button {
+}
+
+.button,
+.button__link {
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  text-align: center;
+  border-radius: 8px;
+  background: #f2726f;
+}
+
+.button:hover {
+  background: #d15957;
+}
+
+.button:active {
+  background: #ac4947;
+}
+
+.button__link_appointment-link {
+  padding: 9px 34px;
+}
+
+/* who-we-are */
+
+.who-we-are {
+}
+
+.who-we-are_margin-bottom {
+  margin-bottom: 122px;
+}
+.who-we-are__container {
+}
+
+.offset-block {
+  position: relative;
+  padding: 100px 86px 0;
+  background: #5d62b5;
+  border-radius: 40px;
+  margin-top: -80px;
+}
+
+.offset-block_first-block-decoration::before {
+  content: "";
+  position: absolute;
+  background: url("/img/index/raster/blob.png") 0 0 / cover no-repeat;
+  width: 662px;
+  height: 590px;
+  bottom: -150px;
+  left: -13px;
+}
+
+.offset-block_first-block-decoration::after {
+  content: "";
+  position: absolute;
+  background: url("/img/index/vector/dots.svg") 0 0 / cover no-repeat;
+  width: 201px;
+  height: 317px;
+  left: 895px;
+  top: -109px;
+}
+
+.offset-block__sub-title {
+  margin-bottom: 33px;
+  position: relative;
+  color: #f5f5f5;
+  font-size: 12px;
+  line-height: 2;
+  padding-left: 33px;
+}
+
+.offset-block__sub-title::before {
+  content: "";
+  position: absolute;
+  background: url("/img/index/vector/overline-mark.svg") 0 0 / cover no-repeat;
+  top: 0;
+  left: 0;
+  width: 26.53px;
+  height: 26.47px;
+}
+
+.offset-block__title {
+  margin-bottom: 36px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.offset-block__text {
+  font-size: 16px;
+  line-height: 2;
+  color: #f5f5f5;
+  margin-bottom: 54px;
+}
+.offset-block__img {
+  display: inline-block;
+  border-radius: 40px;
+  filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+
+  margin: 0 0 -120px 0;
+}
+
+/* make-an-appointment */
+
+.make-an-appointment {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  background: #29c3be;
+}
+
+.make-an-appointment::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 380px;
+  height: 242px;
+  background: url("/img/index/raster/blob-ippointment.png") 0 0 / cover no-repeat;
+  z-index: 2;
+}
+
+.make-an-appointment::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 105px;
+  width: 236px;
+  height: 317px;
+  background: url("/img/index/vector/stylize-circles.svg") 0 0 / 236px 317px no-repeat;
+  z-index: 1;
+}
+
+.make-an-appointment__wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  min-width: 100%;
+  background: url("/img/index/raster/dog-appointment.png") 3px 44px / auto no-repeat;
+  z-index: 4;
+}
+
+.make-an-appointment__wrapper::before {
+  content: "";
+  position: absolute;
+  width: 682px;
+  height: 388px;
+  right: 8px;
+  top: -26px;
+  background: url("/img/index/vector/line-appointment.svg") 0 0 / contain no-repeat;
+  z-index: 4;
+}
+
+.make-an-appointment__wrapper::after {
+  content: "";
+  position: absolute;
+  right: 48px;
+  top: 114px;
+  width: 100px;
+  height: 100px;
+  background: url("/img/index/raster/tennis-ball.png") center / cover no-repeat;
+  z-index: 5;
+}
+
+.make-an-appointment__container {
+}
+
+.make-an-appointment__body {
+  position: relative;
+  z-index: 7;
+  padding: 112px 0 0 0;
+  margin: 0 0 0 auto;
+  max-width: 411px;
+}
+
+.make-an-appointment__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 42px;
+}
+.make-an-appointment__button {
+}
+.button {
+}
+.button__link {
+}
+.button__link_make-an-appointment-block {
+}
+
+/* appointment-form */
+
+.appointment-form {
+}
+
+.appointment-form__wrapper {
+  position: relative;
+  min-height: 980px;
+  padding: 130px 0 0 0;
+  background: url("/img/index/raster/form-bg.png") center / cover no-repeat;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.appointment-form__wrapper::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 335px;
+  height: 566px;
+  left: 100px;
+  top: 239px;
+  background: url("/img/index/raster/form-stylize-circles.png") center / contain no-repeat;
+}
+
+.appointment-form__wrapper::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 642px;
+  height: 725px;
+  left: 120px;
+  top: 135px;
+  background: url("/img/index/raster/form-blob.png") center / contain no-repeat;
+}
+
+.appointment-form__container {
+}
+.appointment-form__window-form {
+  position: relative;
+  z-index: 3;
+  width: 585px;
+  height: 640px;
+  background: #5d62b5;
+  border-radius: 40px;
+  filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+.form {
+}
+.form__body {
+  position: sticky;
+  top: 0;
+  padding: 57px 58px 76px 58px;
+}
+.form__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.form__button {
+  position: sticky;
+  top: 0;
+}
+.button {
+}
+.button__link {
+}
+.button__link_appointment-link {
+}
+.appointment-form__body {
+  font-weight: 900;
+  margin: 0 0 0 auto;
+  width: 324px;
+  text-align: center;
+}
+.appointment-form__text {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 46px;
+}
+.appointment-form__bold-text {
+  font-size: 96px;
+  line-height: 56px;
+  margin-bottom: 46px;
+}
+.appointment-form__small-text {
+  font-size: 19px;
+  line-height: 26px;
+}
+
+/* gallery-and-live-streams */
+
+.gallery-and-live-streams_margin-bottom {
+  margin-bottom: 205px;
+}
+
+/* our-impact */
+
+.our-impact {
+}
+
+.our-impact__wrapper {
+  background: #2ab1ad;
+  position: relative;
+}
+
+.our-impact__wrapper::before {
+  content: "";
+  position: absolute;
+  width: 738px;
+  height: 329px;
+  right: 100px;
+  top: 0px;
+  background: url("/img/index/raster/our-impact-blob.png") center / contain no-repeat;
+}
+
+.our-impact__container {
+}
+.our-impact__img {
+  display: block;
+  position: relative;
+  top: -80px;
+  width: 557px;
+  height: 336px;
+  border-radius: 40px;
+  margin: 0 0 0 auto;
+  z-index: 3;
+}
+.our-impact__bottom-block {
+  display: inline-block;
+  width: 100%;
+  bottom: -50px;
+  min-height: 150px;
+  background: #5d62b5;
+  border-radius: 20px;
+  margin-bottom: -50px;
+}
+.our-impact__button {
+}
+.button {
+}
+.button__link {
+}
+.button__link_appointment-link {
+}
