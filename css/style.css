@@ -117,7 +117,7 @@ body {
   background: url("../img/index/vector/dots.svg") 0 0 / cover no-repeat;
   width: 201px;
   height: 317px;
-  left: 895px;
+  right: -80px;
   top: -109px;
 }
 
@@ -156,7 +156,7 @@ body {
   display: inline-block;
   border-radius: 40px;
   filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
-
+  width: 100%;
   margin: 0 0 -120px 0;
 }
 
@@ -228,7 +228,7 @@ body {
 .make-an-appointment__body {
   position: relative;
   z-index: 7;
-  padding: 112px 0 0 0;
+  padding: 112px 0 30px 0;
   margin: 0 0 0 auto;
   max-width: 411px;
 }
@@ -296,6 +296,7 @@ body {
   filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
 }
 .form {
+  padding: 15px;
 }
 .form__body {
   position: sticky;
@@ -323,6 +324,7 @@ body {
   margin: 0 0 0 auto;
   width: 324px;
   text-align: center;
+  padding: 10px;
 }
 .appointment-form__text {
   font-size: 30px;
@@ -341,8 +343,8 @@ body {
 
 /* gallery-and-live-streams */
 
-.gallery-and-live-streams_margin-bottom {
-  margin-bottom: 205px;
+.gallery-and-live-streams_padding-bottom {
+  padding: 0 0 118px 0;
 }
 
 /* our-impact */
@@ -367,15 +369,20 @@ body {
 
 .our-impact__container {
 }
-.our-impact__img {
+
+.our-impact__picture {
   display: block;
   position: relative;
   top: -80px;
-  width: 557px;
   height: 336px;
-  border-radius: 40px;
+  width: 556px;
   margin: 0 0 0 auto;
   z-index: 3;
+}
+
+.our-impact__img {
+  border-radius: 40px;
+  width: 100%;
 }
 .our-impact__bottom-block {
   display: inline-block;
@@ -385,6 +392,7 @@ body {
   background: #5d62b5;
   border-radius: 20px;
   margin-bottom: -50px;
+  padding: 20px;
 }
 .our-impact__button {
 }
